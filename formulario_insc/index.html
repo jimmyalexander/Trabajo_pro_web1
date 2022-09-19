@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/styles.css">
+  <title>Información del Empleado</title>
+</head>
+<body>
+    <div class="empleados">
+      <h3>Ingrese los siguientes datos</h3>
+      <form action="" class="formulario">
+        <div class="formLabel">
+          <label for="nombre">Nombre:</label>
+          <label for="estatura">Estatura:</label>
+          <label for="sexo">Sexo:</label>
+          <label for="salario">Salario:</label>
+          <label for="diatrabaja">Dias Trabajados:</label>
+          <label for="email">E-mail:</label>
+          <label for="fecha">Fecha:</label>
+          <label for="lenguaje">Lenguaje preferido:</label>
+          <label for="salario">Salario a Pagar:</label>
+        </div>
+
+        <div class="formInputs">
+          <input required type="text" name="nombre" id="">
+          <input required type="text" name="estatura" id="">
+          <div class="content_sexo">
+            <div class="check_sexo">
+              <div class="masculino">
+                <p>M</p><input type="checkbox" name="" id="">
+              </div>
+              <div class="femenino">
+                <p>F</p><input type="checkbox" name="" id="">
+              </div>
+            </div>
+          </div>
+          <input required type="text" name="salario" id="">
+          <input required type="text" name="diatrabaja" id="">
+          <input required type="email" name="email" id="">
+          <input required type="date" name="fecha" id="">
+          <select name="select">
+            <option value="opc" selected>Seleccione..</option>
+            <option value="java">Java</option>
+            <option value="cmas">C++</option>
+            <option value="python">Python</option>
+            <option value="ruby">Ruby<option>
+            <option value="c">C#</option>
+          </select>
+          <input type="text" name="salario" id="">
+          <div class="form_button">
+            <button type="button">Calcular</button>
+            <button class='submit' type="submit">Enviar</button>
+          </div>
+        </div>
+        
+
+      </form>
+    </div>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./src/script.js"></script>
+</body>
+</html>

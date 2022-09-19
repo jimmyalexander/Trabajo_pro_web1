@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  display:flex;
+  justify-content:center;
+  background-color:#55aa99;
+}
+.empleados{
+  background-color:#eee;
+  border-radius: 5px;
+  display: block;
+  margin-top: 10%;
+  height: 600px;
+  padding:20px 10px;
+  text-align: center;
+  width: 50%;
+}
+.empleados form{
+  display: flex;
+  height:100%;
+  justify-content: center;
+  margin-top: 5%;
+  width: 100%;
+}
+.empleados form .formLabel {
+  display: flex;
+  flex-direction: column;
+  width:30%;
+  
+}
+.empleados form .formLabel label {
+  margin:16px 5px;
+  
+}
+.empleados form .formInputs {
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+  width:40%;
+}
+.empleados form .formInputs input{
+  border: 0.9px solid #bbb;
+  margin: 10px;
+  padding:5px;
+}
+.empleados form .content_sexo .check_sexo{
+  display: flex;
+}
+.empleados form .content_sexo .check_sexo p{
+  left: 0px;
+  position: relative;
+}
+.empleados form .content_sexo .check_sexo .masculimo,.femenino,p{
+  margin: 0;
+}
+form select{
+  border: 0.9px solid #bbb;
+  left:10px;
+  margin-bottom: 25px;
+  padding:10px;
+  position:relative;
+  top:13px;
+  width:360px;
+}
+form .form_button{
+  display: flex;
+  justify-content: left;
+  padding:10px;
+}
+form .form_button button{
+  margin: 5px;
+  padding:5px;
+}
